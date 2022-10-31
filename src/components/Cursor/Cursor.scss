@@ -2,6 +2,7 @@
 
 .cursor {
     @include u1.block_display();
+    z-index: 100;
     position: absolute;
     top: 0; left: 0; bottom: auto; right: auto;
     width: 30px;
