@@ -14,11 +14,14 @@ export default function Cursor() {
     const updateMousePosition = useCallback((event: MouseEvent) => {
         const mousePositionX = event.clientX - 10
         const mousePositionY = event.clientY - 10
+        const targetElement = event.target as HTMLElement
 
         defX.set(mousePositionX);
         defY.set(mousePositionY);
 
-        console.log(event.target)
+        if (targetElement.classList.contains('.ch1')) {
+            console.log('we have a target')
+        }
     }, [defX, defY],
     )
     
