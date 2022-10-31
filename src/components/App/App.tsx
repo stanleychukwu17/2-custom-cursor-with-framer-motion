@@ -2,7 +2,9 @@ import './app.scss';
 
 const App = () => {
     return (
-        <div>Welcome home</div>
+        <div className="">
+            <h1>Hello World</h1>
+        </div>
     )
 }
 
