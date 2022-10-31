@@ -1,3 +1,4 @@
+import Cursor from '../Cursor/Cursor';
 import './app.scss';
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
             <div className="mainText">
                 <h1>Hello World</h1>
             </div>
+            <Cursor />
         </div>
     )
 }

@@ -1,6 +1,8 @@
+import './Cursor.scss'
+
 
 export default function Cursor() {
     return (
-        <div className="cursor">Cursor</div>
+        <div className="cursor"></div>
     )
 }

@@ -1,0 +1,11 @@
+@use '../../styles/util/' as u1;
+
+.cursor {
+    @include u1.block_display();
+    position: absolute;
+    top: 0; left: 0; bottom: auto; right: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #8e04d0;
+}
