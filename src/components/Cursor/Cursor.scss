@@ -13,7 +13,7 @@
     pointer-events: none;
 
     &.inAction {
-        mix-blend-mode: exclusion;
+        mix-blend-mode: exclusion; // you can also try mix-blend-mode: difference;
         filter: invert(1);
     }
 }
